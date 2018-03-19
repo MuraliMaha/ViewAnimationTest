@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         _ = myContainerView.frame.size.width
         
-        let height = myContainerView.frame.size.height
+        _ = myContainerView.frame.size.height
     }
 
     override func didReceiveMemoryWarning() {
