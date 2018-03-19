@@ -14,6 +14,7 @@ class SampleVCTeamB: UIViewController {
         super.viewDidLoad()
 
         print("File added by Team B")
+        print("Test For Pulling")
         // Do any additional setup after loading the view.
     }
 
