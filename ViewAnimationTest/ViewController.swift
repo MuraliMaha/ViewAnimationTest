@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         
         print("Main File or First File")
         print("For Test")
+        print("Test for Push")
+        print("Test for Push without Commit")
         
     }
 
