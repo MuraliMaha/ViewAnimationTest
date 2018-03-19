@@ -16,7 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         myContainerView.layer.cornerRadius = 10
-        myContainerView.layer.backgroundColor = UIColor.green
+        myContainerView.layer.backgroundColor = UIColor.green as? CGColor
+        
+        _ = myContainerView.frame.size.width
+        
     }
 
     override func didReceiveMemoryWarning() {
