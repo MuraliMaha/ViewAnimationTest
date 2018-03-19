@@ -13,6 +13,7 @@ class SampleVCTeamMMM: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("MMM")
         // Do any additional setup after loading the view.
     }
 
