@@ -21,6 +21,11 @@ class ViewController: UIViewController {
         _ = myContainerView.frame.size.width
         
         _ = myContainerView.frame.size.height
+        
+        print("This are works from Team B")
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
