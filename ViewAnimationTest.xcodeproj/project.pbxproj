@@ -14,6 +14,7 @@
 		78B3988C205BE04D005D2021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B3988A205BE04D005D2021 /* LaunchScreen.storyboard */; };
 		78E76FD1205FDB59007ADF14 /* SampleVCTeamB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E76FD0205FDB59007ADF14 /* SampleVCTeamB.swift */; };
 		78E76FD7205FE592007ADF14 /* SampleVCTeamC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E76FD6205FE592007ADF14 /* SampleVCTeamC.swift */; };
+		78E76FDA205FE6C8007ADF14 /* SampleVCTeamE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E76FD9205FE6C8007ADF14 /* SampleVCTeamE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		78B3988D205BE04D005D2021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78E76FD0205FDB59007ADF14 /* SampleVCTeamB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVCTeamB.swift; sourceTree = "<group>"; };
 		78E76FD6205FE592007ADF14 /* SampleVCTeamC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVCTeamC.swift; sourceTree = "<group>"; };
+		78E76FD9205FE6C8007ADF14 /* SampleVCTeamE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVCTeamE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		78B39880205BE04C005D2021 /* ViewAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				78E76FD8205FE6A8007ADF14 /* TeamEFiles */,
 				78E76FD5205FE572007ADF14 /* TeamCFiles */,
 				78E76FCF205FDB2B007ADF14 /* TeamBFiles */,
 				78B39881205BE04C005D2021 /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 				78E76FD6205FE592007ADF14 /* SampleVCTeamC.swift */,
 			);
 			path = TeamCFiles;
+			sourceTree = "<group>";
+		};
+		78E76FD8205FE6A8007ADF14 /* TeamEFiles */ = {
+			isa = PBXGroup;
+			children = (
+				78E76FD9205FE6C8007ADF14 /* SampleVCTeamE.swift */,
+			);
+			path = TeamEFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E76FDA205FE6C8007ADF14 /* SampleVCTeamE.swift in Sources */,
 				78E76FD1205FDB59007ADF14 /* SampleVCTeamB.swift in Sources */,
 				78B39884205BE04C005D2021 /* ViewController.swift in Sources */,
 				78B39882205BE04C005D2021 /* AppDelegate.swift in Sources */,
